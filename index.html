@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一根人畜无害的棒棒糖</title>
+    <link rel="stylesheet" href="css/monent.css">
+</head>
+<style>
+    #app{
+        display: none;
+    }
+    #ooo{
+        display: block;
+    }
+    @media screen and (max-width: 500px) {
+        #app{
+            display: block;
+        }
+        #ooo{
+            display: none;
+        }
+    }
+    
+</style>
+<body>
+    <div id="app">
+        <div class="apppage apphome active">
+            <div class="cont active">
+                <img src="imgs/dog.gif" alt="">
+                <div class="question">
+                    <div class="ques">
+                        棒棒糖是不是最帅的？
+                    </div>
+                    <div class="btns">
+                        <div class="btn flytoyes">是</div>
+                        <div class="btn nono">不是</div>
+                    </div>
+                </div>
+            </div>
+            <div class="diaCont">
+            </div>
+        </div>
+        <div class="apppage appother">
+            
+        </div>
+        <div class="appbtm">
+            <div class="l">home</div>
+            <div class="r">不要乱点</div>
+        </div>
+    </div>
+    <div id="ooo">
+        划水的童鞋，请缩小到500像素以内,避免被老板发现！！！
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/comment.js"></script>
+</body>
+</html>

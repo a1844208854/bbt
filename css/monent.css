@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.apphome{
+    /* background-color: burlywood; */
+    height: 100%;
+}
+.apphome img{
+    width: 100%;
+}
+.diaContAudio{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.apphome .cont{
+    display: none;
+}
+.apphome .cont.active{
+    display: block;
+}
+.apphome .diaCont{
+    display: none;
+}
+.apphome .diaCont.active{
+    display: block;
+}
+.apphome .diaCont img{
+    width: 100%;
+    height: auto;
+}
+.apphome .question{
+    text-align: center;
+    border: 1px solid #333;
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.apphome .btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.apphome .btns .btn{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+.apphome {}
+.apphome {}
+.apphome {}
+.apphome {}
+
+
+
+
+.appother{
+    /* background-color: yellowgreen; */
+    height: 100%;
+}
+.appother img{
+    width: 100%;
+}
+.appbtm{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appbtm div{
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.appbtm div.l{
+    background-color: aquamarine;
+}
+.appbtm div.r{
+    background-color: bisque;
+}
+.apppage{
+    display: none;
+}
+.apppage.active{
+    display: block;
+}
